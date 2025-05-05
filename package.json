@@ -1,0 +1,12 @@
+{
+  "name": "javascript-problems",
+  "version": "1.0.0",
+  "private": "true",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Collection of javascript interview problems with solutions",
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
