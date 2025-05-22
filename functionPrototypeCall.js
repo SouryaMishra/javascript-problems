@@ -1,6 +1,6 @@
 Function.prototype.mycall = function (thisArg, ...args) {
-  // undefined and null should be replaced with window
-  thisArg = thisArg ?? window;
+  // undefined and null should be replaced with global object
+  thisArg = thisArg ?? globalThis;
   // Primitive values should be transformed to object
   thisArg = Object(thisArg);
   // Create a unique temporary key with Symbol(). Symbols are always unique and can be keys of an object
